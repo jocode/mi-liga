@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+
+h2 {
+  color: lightcoral;
+}
+
+.description {
+  font-family: 'Ralaway', sans-serif;
+  font-size: 18px;
+  color: gray;
+}
+
+.nota {
+  font-family: 'Indie Flower', cursive;
+}

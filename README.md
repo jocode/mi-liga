@@ -1,4 +1,63 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Mi Liga
+
+Algunos consejos para el trabajo con ReactJS
+
+- `ctrl + k + c`  => Comentarios en JSX
+- `ctrl + k + u`  => Removemos el comentario en React (u = undo)
+
+**Frameworks CSS para react**
+- Material UI
+- Material UI Next
+- react Bootstrap
+- PrimerReact
+
+En este proyecto se trabajará con *Material UI Next*. Para ello debemos ir al sitio oficial para ver la documentación (material-ui.com)[https://material-ui.com/es/getting-started/installation/]
+
+Ejecutamos el comando de instalación para usar la librería en el proyecto
+
+- `npm install @material-ui/core`
+
+En el archivo `index.html` copiamos los enlaces
+
+```css
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+``` 
+O podemos usar los **@import url('la-url')** para importar los estilos
+
+
+Y para los íconos usamos
+
+- `npm install @material-ui/icons`
+
+Luego de esto podemos ir al sitio Material UI Next en la sección de componentes para ver los componentes disponibles para ello
+
+
+## Instalando React Router
+
+Instalamos `react-router-dom` para configurar las rutas en la aplicación
+
+- `npm install --save react-router-dom`;
+
+- **BrowserRoter** Si el servidor donde se aloja la aplicación, puede manejar las peticiones dinámicas, entonces se utiliza este.
+
+- **HashRouter** Se trabaja si tenermos sitio web estáticos como en GithubPages
+
+
+Con los `/:` dos puntos le indicamos a la ruta que vamos a trabajar con un parámetro. A este parametro, se le debe poner un nombre.
+
+Como los estados son inmutables, debemos agregar subelementos a las propiedades para poderlas modificar.
+
+## Consumir de datos en React
+
+- API o servicio remoto
+- Algún archivo localmente en la aplicación
+- Hardcode (Colocando los datos directamente en la aplicación)
+
+- **Consumir archivos JSON locales**
+
+
+
 
 ## Available Scripts
 

@@ -1,0 +1,33 @@
+.contenedor {
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: center;
+}
+
+.equipos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.equipos div {
+  margin: 10px;
+  height: 180px;
+  width: 180px;
+  padding: 10px;
+}
+
+.jugadores {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.jugadores div {
+  margin: 10px;
+  height: 180px;
+  width: 180px;
+  padding: 10px;
+}
